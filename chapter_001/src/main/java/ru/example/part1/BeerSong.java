@@ -1,6 +1,6 @@
 package ru.example.part1;
 /**
-* Class для вывода на экран песенки о бутылках пиво
+* Class to display a song about bottles of beer
 * @author spartakzubenok
 * @since 10.06.2018
 * @version 1
@@ -8,23 +8,23 @@ package ru.example.part1;
 public class BeerSong {
 	public static void main(String[] args) {
 	int beerNum=7;
-	String word="бутылок (бутылки)";
+	String word="bottles";
 	
 	while(beerNum>0) {
 		if(beerNum==1) {
-			word="бутылка";
+			word="bottle";
 		}
-		System.out.println(beerNum+""+word+"_пива на столе");
-		System.out.println(beerNum+""+word+"_пива");
-		System.out.println("Возьми одну!!!");
-		System.out.println("Пусти по кругу!!!");
+		System.out.println(beerNum+""+word+"_beer on the table");
+		System.out.println(beerNum+""+word+"_beer");
+		System.out.println("Take one!!!");
+		System.out.println("Let's go in a circle!!!");
 		beerNum=beerNum-1;
 	}
-	System.out.println("Нет бутылок пива на столе");
+	System.out.println("No bottles of beer on the table");
 	}
 /**
-* вывод на экран текста до момента соответствия условию
-* @param beerNum переменная
-* @return текст на экране
+* Display the text until it meets the condition
+* @param beerNum variable
+* @return text on the screen
 */
 }
